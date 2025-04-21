@@ -18,6 +18,8 @@ namespace WeatherApp.Controllers
         {
             return View(cities);
         }
+
+
         [Route("weather/{cityCode?}")]
 
         public IActionResult City(string? cityCode)
